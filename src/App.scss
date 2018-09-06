@@ -1,3 +1,15 @@
+@import 'stylesheets/modules/_normalise.scss';
+@import 'stylesheets/modules/_colours.scss';
+
+/*
+$black
+$pink
+$blue
+$light-blue
+$yellow
+$peach
+*/
+
 .App {
   text-align: center;
 }
@@ -8,7 +20,7 @@
 }
 
 .App-header {
-  background-color: #222;
+  background-color: $pink;
   height: 150px;
   padding: 20px;
   color: white;
