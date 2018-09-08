@@ -1,6 +1,7 @@
 @import 'stylesheets/modules/_normalise.scss';
 @import 'stylesheets/modules/_colours.scss';
 @import 'stylesheets/modules/_layout.scss';
+@import 'stylesheets/modules/_typography';
 
 /*
 $black
@@ -33,17 +34,49 @@ $white
   background-size: cover;
 }
 
+/* Welcome message style */
+
+.welcome--grid {
+
+  display: grid;
+  grid-template-columns: auto;
+
+  .welcome--heading {
+    padding-top: 20px;
+    text-align: center;
+  }
+
+  .welcome--para {
+    background-color: $yellow;
+    padding: 15px;
+  }
+
+  .welcome--img {
+    width: 100%;
+  }
+}
+
 /* footer style */
 footer {
   padding: 25px;
   background-image: url('./img/background.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
-    .content {
+    .footer--grid {
+      display: grid;
+      grid-template-columns: auto;
       padding: 25px;
       background-color: $white;
       opacity: 0.8;
       border-radius: 0.2em;
+    }
+
+    .footer-content {
+      grid-column: 1/4;
+    }
+
+    .footer--privacy {
+      grid-column: 1/4;
     }
 
     a {

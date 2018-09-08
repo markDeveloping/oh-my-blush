@@ -20,8 +20,8 @@ export default class Footer extends React.Component<IProps> {
 
 		return (
 			<footer>
-				<div className="grid-container content">
-					<div className="footer__contact">
+				<div className="footer--grid">
+					<div className="footer--contact">
 					<h3>{contact_label}</h3>
 					<address>
 						<ul>
@@ -33,7 +33,7 @@ export default class Footer extends React.Component<IProps> {
 						{postcode}
 					</address>
 					</div>
-					<div>
+					<div className="footer--privacy">
 						<h3>How we use your data</h3>
 						<ul>
 							<li><a href="#">Privacy notice</a></li>

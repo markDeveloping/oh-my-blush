@@ -5,6 +5,12 @@
 	/* border: 1px solid $black; */
 }
 
+.welcome--grid {
+	display: grid;
+	grid-template-columns: auto;
+	grid-template-rows: auto auto auto;
+}
+
 .center {
   	display: block;
   	margin-left: auto;
