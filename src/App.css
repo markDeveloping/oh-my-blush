@@ -380,7 +380,6 @@ $white
   border: 1px solid #ccc; }
 
 .product--img {
-  height: 300px;
   overflow: hidden;
   grid-column: 1/4;
   border-bottom: 10px solid #F853EC; }
