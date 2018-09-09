@@ -6,8 +6,17 @@ h1, h2 {
 	font-family: 'Yellowtail', cursive;
 	font-size: 12vw;
 	font-weight: lighter;
+	text-align: center;
 }
 
 p {
-	font-size: 7vw;
+	font-size: 6vw;
+}
+
+.pink {
+	color: $pink;
+}
+
+.blue {
+	color: $blue;
 }

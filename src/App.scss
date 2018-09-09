@@ -7,7 +7,7 @@
 $black
 $pink
 $blue
-$light-blue
+$lightBlue
 $yellow
 $peach
 $white
@@ -43,17 +43,57 @@ $white
 
   .welcome--heading {
     padding-top: 20px;
-    text-align: center;
   }
 
   .welcome--para {
     background-color: $yellow;
-    padding: 15px;
+    padding: 30px;
   }
 
   .welcome--img {
     width: 100%;
   }
+}
+
+/* products style */
+
+.product--grid {
+  display: grid;
+  grid-template-columns: 35% 35% 30%;
+  grid-template-rows: 300px auto;
+  margin: 0 10px 15px 10px;
+  border: 1px solid $grey;
+}
+
+.product--img {
+  height: 300px;
+  overflow: hidden;
+  grid-column: 1/4;
+  border-bottom: 10px solid $pink;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.product--info {
+    padding: 20px;
+    grid-column: 1/3;
+    h3 {
+      font-size: 6vw;
+    }
+    p {
+      font-size: 4vw;
+      color: $darkGrey;
+      font-weight: lighter;
+    }
+  }
+
+.product--cost {
+  line-height: 300%;
+  font-size: 7vw;
+  color: $pink;
 }
 
 /* footer style */
@@ -70,6 +110,10 @@ footer {
       opacity: 0.8;
       border-radius: 0.2em;
     }
+
+    address {
+    font-style: normal;
+  }
 
     .footer-content {
       grid-column: 1/4;

@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 interface IProps {
-	contact_label: string;
+	contactLabel: string;
 	email: string;
 	telephone: string;
 	street: string;
@@ -11,7 +11,7 @@ interface IProps {
 
 export default class Footer extends React.Component<IProps> {
 	public render() {
-		const {contact_label} = this.props;
+		const {contactLabel} = this.props;
 		const {email} = this.props;
 		const {telephone} = this.props;
 		const {street} = this.props;
@@ -22,7 +22,7 @@ export default class Footer extends React.Component<IProps> {
 			<footer>
 				<div className="footer--grid">
 					<div className="footer--contact">
-					<h3>{contact_label}</h3>
+					<h3>{contactLabel}</h3>
 					<address>
 						<ul>
 						<li><a href="mailto:ohmyblush.eventhire@hotmail.com">{email}</a></li>

@@ -3,18 +3,18 @@ import sparks from '../img/sparks.jpeg';
 
 
 interface IProps {
-	welcome_label: string;
+	welcomeLabel: string;
 	para: string;
 }
 
 export default class Welcome extends React.Component<IProps> {
 	public render() {
-		const {welcome_label} = this.props;
+		const {welcomeLabel} = this.props;
 		const {para} = this.props;
 		return (
 			<div className="welcome--grid">
 			<div className="welcome--heading">
-			<h1>{welcome_label}</h1>
+			<h1>{welcomeLabel}</h1>
 			</div>
 			<div className="welcome--para">
 			<p>{para}</p>
