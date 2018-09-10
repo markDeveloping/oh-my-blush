@@ -20,3 +20,41 @@ p {
 .blue {
 	color: $blue;
 }
+
+.product--info {
+h3 {
+      font-size: 6vw;
+    }
+    p {
+      font-size: 4vw;
+      color: $darkGrey;
+      font-weight: lighter;
+    }
+}
+
+.product--cost {
+  line-height: 300%;
+  font-size: 7vw;
+}
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+/* Styles */
+h1, h2 {
+	font-size: 7vw;
+}
+
+.product--info {
+	h3 {
+		font-size: 2vw;
+	}
+	p {
+		font-size: 1.5vw;
+	}
+}
+
+.product--cost {
+	font-size: 2.3vw;
+}
+
+}
