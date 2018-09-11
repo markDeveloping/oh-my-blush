@@ -60,13 +60,23 @@ $white
 .product--img {
   overflow: hidden;
   grid-column: 1/4;
-  border-bottom: 10px solid $pink;
+  height: 280px;
 
   img {
     height: auto;
+    min-height: 100%;
     width: 100%;
   }
 }
+
+  .product--img.pink {
+    border-bottom: 10px solid $pink;
+}
+
+  .product--img.blue {
+    border-bottom: 10px solid $blue;
+  }
+
 
 .product--info {
     padding: 20px;

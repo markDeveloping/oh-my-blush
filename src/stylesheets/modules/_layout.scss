@@ -14,7 +14,7 @@
 .product--grid {
   display: grid;
   grid-template-columns: 35% 35% 30%;
-  grid-template-rows: 340px auto;
+  grid-template-rows: auto auto;
   margin: 0 10px 15px 10px;
   border: 1px solid $grey;
 }
@@ -27,7 +27,7 @@
 }
 
 /* Desktops and laptops ----------- */
-@media only screen  and (min-width : 1224px) {
+@media only screen  and (min-width : 800px) {
 /* Styles */
 
 .product-grid--container {
@@ -37,6 +37,7 @@
   margin-left: 10%;
   margin-right: 10%;
   width: auto;
+  margin-bottom: 15px;
 }
 
 .product--grid {

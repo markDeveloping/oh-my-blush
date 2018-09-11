@@ -20,7 +20,7 @@ export default class Product extends React.Component<IProps> {
 
 		return (
 			<div className="product--grid" >
-				<div className="product--img">
+				<div className={"product--img " + (colour || "") }>
 				<img src={img} alt={imgAlt} />
 				</div>
 
