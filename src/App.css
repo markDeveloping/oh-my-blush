@@ -315,6 +315,16 @@ template {
   margin: 0 10px 15px 10px;
   border: 1px solid #ccc; }
 
+.about--body {
+  background-color: #B1CFD7;
+  padding: 15px 0; }
+
+.about--img img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%; }
+
 .center {
   display: block;
   margin-left: auto;
@@ -332,6 +342,10 @@ template {
     margin-right: 10%;
     width: auto;
     margin-bottom: 15px; }
+  .about--grid {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: auto; }
   .product--grid {
     margin: 0 0 0 10px; }
   .welcome--grid {
@@ -364,6 +378,11 @@ p {
   font-size: 4vw;
   color: #4A4A4A;
   font-weight: lighter; }
+
+.about--body p {
+  font-size: 5vw;
+  font-weight: lighter;
+  margin: 15px 20px; }
 
 .product--cost {
   line-height: 300%;
