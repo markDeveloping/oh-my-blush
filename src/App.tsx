@@ -1,9 +1,7 @@
 import * as React from 'react';
 
-
 // compiled css file
 import './App.css';
-
 
 // react modules
 import About from './components/About';
