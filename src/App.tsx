@@ -1,7 +1,9 @@
 import * as React from 'react';
 
+
 // compiled css file
 import './App.css';
+
 
 // react modules
 import About from './components/About';
@@ -13,7 +15,7 @@ import Welcome from './components/Welcome';
 
 // imports for images 
 import love from './img/love.jpeg';
-import mikeandmel from './img/mikeandmel.jpeg';
+import mikeandmel from './img/mikeandmel.jpg';
 import pinkwall from './img/pinkwall.jpg';
 import whitewall from './img/whitewall.jpg';
 
