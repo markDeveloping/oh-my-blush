@@ -16,7 +16,6 @@ import Welcome from './components/Welcome';
 // imports for images 
 import love from './img/love.jpeg';
 import about from './img/mikeandmel.jpg';
-
 import pinkwall from './img/pinkwall.jpg';
 import whitewall from './img/whitewall.jpg';
 
