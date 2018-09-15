@@ -7,6 +7,7 @@ import './App.css';
 
 // react modules
 import About from './components/About';
+import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Product from './components/Product';
@@ -36,6 +37,7 @@ class App extends React.Component {
         <Product name="Gracie" metaDescription="A perfect contrast between rich foliage and classic white flowers - 2.5 x 2.5m" cost={200} img={whitewall} imgAlt="Picture of our white flower wall" colour="pink" />        
         </div>
         <About img={mikeandmel} aboutHeading="About us"/>
+        <Contact contactHeading="Contact us" />
         </main>
         <Footer email="ohmyblush.eventhire@hotmail.com" contactLabel="Contact us" telephone="0749 6539 219" street="Tintern Close" town="Bristol" postcode="BS30 7XH"/>
       </div>
