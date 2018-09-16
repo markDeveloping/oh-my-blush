@@ -21,7 +21,7 @@ export default class Contact extends React.Component<IProps> {
 	<form id="contact-form">
 		<div className="contact--key-info">
 
-			<legend>Contact form</legend>
+			<legend className="sr-only">Contact form</legend>
 				<label htmlFor="from_name">Name</label>
 				<input type="text" id="from_name" name="from_name" />
 
@@ -44,7 +44,7 @@ export default class Contact extends React.Component<IProps> {
 			
 		</div>
 		<div className="contact--button">
-			<input type="submit" value="Send" />
+			<input type="submit" value="Send message" />
 		</div>
 	</form>
 

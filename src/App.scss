@@ -1,8 +1,8 @@
-@import 'stylesheets/modules/_normalise.scss';
-@import 'stylesheets/modules/_colours.scss';
-@import 'stylesheets/modules/_layout.scss';
+@import 'stylesheets/modules/_normalise';
+@import 'stylesheets/modules/_colours';
+@import 'stylesheets/modules/_layout';
 @import 'stylesheets/modules/_typography';
-
+@import 'stylesheets/modules/_form';
 /*
 $black
 $pink
@@ -12,6 +12,16 @@ $yellow
 $peach
 $white
 */
+
+/* Screen reader only text */
+.sr-only {
+  position:absolute;
+  left:-10000px;
+  top:auto;
+  width:1px;
+  height:1px;
+  overflow:hidden;
+}
 
 /* header style */
 .logo {
