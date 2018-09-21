@@ -1,23 +1,20 @@
 import * as React from 'react';
+import Contact from './Contact';
 
-interface IProps {
-	img: string;
-	aboutHeading: string;
-}
+// image
 
-export default class About extends React.Component<IProps> {
-	public render() {
-		const {img} = this.props;
-		const {aboutHeading} = this.props;
-		return (
+import mikeandmel from '../img/mikeandmel.jpeg';
+
+	const About = () => (
+			<div>
 			<div className="about--grid" >
 
 				<div className="about--img">
-					<img src={img} alt="Picture of Oh My Blush owners Mike and Millie." />
+					<img src={mikeandmel} alt="Picture of Oh My Blush owners Mike and Millie." />
 				</div>
 
 				<div className="about--heading">
-				<h1>{aboutHeading}</h1>
+				<h1>About us</h1>
 				</div>
 
 				<div className="about--body">
@@ -28,6 +25,8 @@ export default class About extends React.Component<IProps> {
 				<p>We look forward to hearing from you and if you hav any spcial requests let us know, we’ll do all we can to help.</p>
 				</div>
 			</div>
-		);
-	}
-}
+			<Contact contactHeading="Contact us" />
+			</div>
+		)
+
+	export default About;
