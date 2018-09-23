@@ -5,6 +5,7 @@ interface IProps {
 }
 
 export default class Contact extends React.Component<IProps> {
+
 	public render() {
 		const {contactHeading} = this.props;
 
