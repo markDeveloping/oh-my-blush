@@ -1,0 +1,28 @@
+nav {
+
+	display: grid;
+	grid-template-columns: auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+
+	li {
+		text-decoration: none;
+		display: block;
+		float: left;
+		
+
+			a {
+			padding: 10px 10px;
+			background-color: $peach;
+			margin-right: 15px;
+			border-radius: 4px;
+			color: $black;
+			text-decoration: none;
+			border: 2px solid $white;
+			}
+
+			a:hover {
+				border: 2px solid $yellow;
+			}
+	}
+}

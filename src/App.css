@@ -449,6 +449,26 @@ label {
   margin-top: 8px;
   display: block; }
 
+nav {
+  display: grid;
+  grid-template-columns: auto;
+  margin-top: 15px;
+  margin-bottom: 15px; }
+  nav li {
+    text-decoration: none;
+    display: block;
+    float: left; }
+    nav li a {
+      padding: 10px 10px;
+      background-color: #F2A9A7;
+      margin-right: 15px;
+      border-radius: 4px;
+      color: #000000;
+      text-decoration: none;
+      border: 2px solid #ffffff; }
+    nav li a:hover {
+      border: 2px solid #F1D15F; }
+
 /*
 $black
 $pink

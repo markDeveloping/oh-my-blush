@@ -10,7 +10,7 @@ import Home from './Home';
 const Main = () => (
 	<main>
       <Switch>
-        <Route path='/' component={Home} exact />
+        <Route exact={true} path='/' component={Home} />
         <Route path='/about' component={About} />
       </Switch>
     </main>
