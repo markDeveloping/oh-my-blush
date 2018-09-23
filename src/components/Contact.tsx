@@ -33,7 +33,7 @@ export default class Contact extends React.Component<IProps> {
 
 
 
-				<label htmlFor="tel_no">Tel</label>
+				<label htmlFor="tel_no">Telephone (optional)</label>
 				<input type="text" id="tel_no" name="tel_no" />
 
 

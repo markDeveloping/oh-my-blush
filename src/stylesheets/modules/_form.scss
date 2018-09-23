@@ -41,3 +41,13 @@ label {
 	margin-top: 8px;
 	display: block;
 }
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 800px) {
+/* Styles */
+
+textarea {
+	height: 209px;
+}
+
+}

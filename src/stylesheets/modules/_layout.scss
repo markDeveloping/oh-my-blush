@@ -51,6 +51,12 @@
 @media only screen  and (min-width : 800px) {
 /* Styles */
 
+nav {
+  margin-left: 10%;
+  margin-right: 10%;
+  width: auto;
+}
+
 .product-grid--container {
   display: grid;
   grid-template-columns: auto auto auto;
@@ -65,6 +71,26 @@
   margin-left: 10%;
   margin-right: 10%;
   width: auto;
+}
+
+.contact--grid {
+  margin-left: 10%;
+  margin-right: 10%;
+  width: auto;
+}
+
+#contact-form {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-gap: 15px;
+}
+
+.contact--key-info {
+  grid-column: 1 / span 1;
+}
+
+.contact--message {
+  grid-column: 2 / span 1;
 }
 
 .product--grid {
