@@ -19,7 +19,7 @@ export default class Welcome extends React.Component<IProps> {
 			<div className="welcome--para">
 			<p>{para}</p>
 			</div>
-			<div>
+			<div className="welcome--img__container">
 			<img className="welcome--img" src={sparks} alt="picture of a sparkler."/>
 			</div>
 			</div>

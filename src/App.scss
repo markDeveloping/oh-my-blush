@@ -32,7 +32,8 @@ $white
 }
 
 .responsive {
-  max-width: 90%;
+  max-width: 595px;
+  width: 90%;
   height: auto;
   display: block;
   margin-left: auto;
@@ -49,10 +50,7 @@ $white
 /* Welcome message style */
 
 .welcome--grid {
-
-  display: grid;
-  grid-template-columns: auto;
-
+  
   .welcome--heading {
     padding-top: 20px;
   }
